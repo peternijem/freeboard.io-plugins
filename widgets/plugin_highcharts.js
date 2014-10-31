@@ -103,7 +103,7 @@
 				"external_scripts" : [
 						"http://code.highcharts.com/highcharts.js",
 						"http://code.highcharts.com/modules/exporting.js",
-						"widgets/plugin_highcharts_theme.js" ],
+						"js/freeboard/plugins/plugin_highcharts_theme.js" ],
 				"fill_size" : true,
 				"settings" : highchartsLineWidgetSettings,
 				newInstance : function(settings, newInstanceCallback) {
@@ -274,7 +274,7 @@
 		"description" : "Pie chart with legends.",
 		"external_scripts" : [ "http://code.highcharts.com/highcharts.js",
 				"http://code.highcharts.com/modules/exporting.js",
-				"widgets/plugin_highcharts_theme.js" ],
+				"js/freeboard/plugins/plugin_highcharts_theme.js" ],
 		"fill_size" : true,
 		"settings" : highchartsPieWidgetSettings,
 		newInstance : function(settings, newInstanceCallback) {
